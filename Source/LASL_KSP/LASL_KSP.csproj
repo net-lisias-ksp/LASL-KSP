@@ -8,7 +8,7 @@
     <RootNamespace>LASL.KSP</RootNamespace>
     <AssemblyName>LASL.KSP</AssemblyName>
     <TargetFrameworkVersion>v3.5</TargetFrameworkVersion>
-    <BaseIntermediateOutputPath>..\..\obj\LASL.KSP</BaseIntermediateOutputPath>
+    <BaseIntermediateOutputPath>..\..\obj\LST_Utils</BaseIntermediateOutputPath>
   </PropertyGroup>
   <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
     <DebugSymbols>true</DebugSymbols>

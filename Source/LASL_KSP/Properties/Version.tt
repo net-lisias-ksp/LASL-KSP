@@ -10,7 +10,7 @@
 <#@ output extension=".cs" #>
 <#@ import namespace="System.IO" #>
 <#
-	string PROJECT_NAME = "LST.KSP";
+	string PROJECT_NAME = "LASL.KSP";
 	int major = 0;
 	int minor = 0;
 	int patch = 0;
@@ -83,7 +83,8 @@ namespace <#= PROJECT_NAME #>
 		public const int patch = <#= patch #>;
 		public const int build = <#= build #>;
 		public const string Number = "<#= major #>.<#= minor #>.<#= patch #>.<#= build #>";
-		public const string Namespace = "999_LST-KSP";
+		public const string Suffix = "999_";
+		public const string Namespace = "LST-KSP";
 #if DEBUG
 		public const string Text = Number + " /L DEBUG";
 #else

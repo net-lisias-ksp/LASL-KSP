@@ -17,9 +17,9 @@ The following file layout must be present after installation:
 ```
 <KSP_ROOT>
 	[GameData]
-		[000_KSPAPIExtensions]
+		[000_KSPe]
 			...
-		[999_LST-KSP]
+		[999_LASL-KSP]
 			[PluginData]
 				...
 			[Plugins]
