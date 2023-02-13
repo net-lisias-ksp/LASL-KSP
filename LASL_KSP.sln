@@ -1,0 +1,57 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.810.25
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "LASL_KSP", "Source\LASL_KSP\LASL_KSP.csproj", "{AF44BD81-EBAB-49D6-B9A8-955ED8118EFB}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Support", "Support", "{B24BE50F-FD2B-4384-B43D-6774BA010612}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "LASL.KSP.Support.AviationLights", "Source\Support.AviationLights\LASL.KSP.Support.AviationLights.csproj", "{CC763A0B-DC27-400D-B754-14BD9EC11F53}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "LASL.KSP.Support.KerbalElectric", "Source\Support.KerbalElectric\LASL.KSP.Support.KerbalElectric.csproj", "{DCC60BE2-A905-4896-836D-18FF50E698A6}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "LASL.KSP.Support.Stock", "Source\Support.Stock\LASL.KSP.Support.Stock.csproj", "{103D2139-2893-4D5F-9DAD-EB43EA0C3CD8}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "LASL.KSP.Support.WildBlueTools", "Source\Support.WildBlueTools\LASL.KSP.Support.WildBlueTools.csproj", "{541A08A9-2732-4D31-B4BA-E6D4FF7EB584}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{AF44BD81-EBAB-49D6-B9A8-955ED8118EFB}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{AF44BD81-EBAB-49D6-B9A8-955ED8118EFB}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{AF44BD81-EBAB-49D6-B9A8-955ED8118EFB}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{AF44BD81-EBAB-49D6-B9A8-955ED8118EFB}.Release|Any CPU.Build.0 = Release|Any CPU
+		{CC763A0B-DC27-400D-B754-14BD9EC11F53}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{CC763A0B-DC27-400D-B754-14BD9EC11F53}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{CC763A0B-DC27-400D-B754-14BD9EC11F53}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{CC763A0B-DC27-400D-B754-14BD9EC11F53}.Release|Any CPU.Build.0 = Release|Any CPU
+		{DCC60BE2-A905-4896-836D-18FF50E698A6}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{DCC60BE2-A905-4896-836D-18FF50E698A6}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{DCC60BE2-A905-4896-836D-18FF50E698A6}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{DCC60BE2-A905-4896-836D-18FF50E698A6}.Release|Any CPU.Build.0 = Release|Any CPU
+		{103D2139-2893-4D5F-9DAD-EB43EA0C3CD8}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{103D2139-2893-4D5F-9DAD-EB43EA0C3CD8}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{103D2139-2893-4D5F-9DAD-EB43EA0C3CD8}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{103D2139-2893-4D5F-9DAD-EB43EA0C3CD8}.Release|Any CPU.Build.0 = Release|Any CPU
+		{541A08A9-2732-4D31-B4BA-E6D4FF7EB584}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{541A08A9-2732-4D31-B4BA-E6D4FF7EB584}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{541A08A9-2732-4D31-B4BA-E6D4FF7EB584}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{541A08A9-2732-4D31-B4BA-E6D4FF7EB584}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {136DE524-882F-46E1-BF80-6BAFA88B45CC}
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{CC763A0B-DC27-400D-B754-14BD9EC11F53} = {B24BE50F-FD2B-4384-B43D-6774BA010612}
+		{DCC60BE2-A905-4896-836D-18FF50E698A6} = {B24BE50F-FD2B-4384-B43D-6774BA010612}
+		{103D2139-2893-4D5F-9DAD-EB43EA0C3CD8} = {B24BE50F-FD2B-4384-B43D-6774BA010612}
+		{541A08A9-2732-4D31-B4BA-E6D4FF7EB584} = {B24BE50F-FD2B-4384-B43D-6774BA010612}
+	EndGlobalSection
+EndGlobal
