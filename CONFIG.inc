@@ -1,15 +1,15 @@
 SCRIPT_DIR="$( cd "$( dirname "${BASH_SOURCE[0]}" )" &> /dev/null && pwd )"
 source ${SCRIPT_DIR}/../CONFIG.inc
 
-PACKAGE="LST.KSP"
-TARGETDIR="999_${PACKAGE}"
+PACKAGE="LASL.KSP"
+TARGETDIR="999_LASL-KSP"
 TARGETBINDIR="${TARGETDIR}/Plugins"
 PROJECTSDIR="Source/${PACKAGE}/"
 VERSIONFILE="${PACKAGE}.version"
 
-DLLS="LST.KSP"
+DLLS="LASL.KSP"
 # PluginData DLLs
-PD_DLLS="LST.KSP.Support.Stock LST.KSP.Support.AviationLights LST.KSP.Support.KerbalElectric LST.KSP.Support.WildBlueTools"
+PD_DLLS="LASL.KSP.Support.Stock LASL.KSP.Support.AviationLights LASL.KSP.Support.KerbalElectric LASL.KSP.Support.WildBlueTools"
 # Rule oriented deployoment for PluginData
 #declare -A PD_SUB_RULES=( ["KSPe.UI.12"]="./12x/KSPe.UI" ["KSPe.UI.14"]="./14x/KSPe.UI" ["KSPe.UI.18"]="./18x/KSPe.UI" )
 declare -A PD_SUB_RULES=( )

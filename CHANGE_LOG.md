@@ -1,2 +1,2 @@
-# LST-KSP :: Change Log
+# L Aerospace Shared Libraries / KSP Division :: Change Log
 
