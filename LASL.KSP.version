@@ -1,9 +1,9 @@
 {
-	"NAME"		: "LST-Utils",
-	"URL"		: "https://raw.githubusercontent.com/net-lisias-ksp/LST-Utils/master/LST-Utils.version",
-	"DOWNLOAD"	: "https://github.com/net.lisias.ksp/LST-Utils/releases",
-	"CHANGE_LOG"	: "https://raw.githubusercontent.com/net-lisias-ksp/LST-Utils/CHANGE_LOG.md",
-	"CHANGE_LOG_URL": "https://raw.githubusercontent.com/net-lisias-ksp/LST-Utils/CHANGES.md",
+	"NAME"		: "LASL.KSP",
+	"URL"		: "https://raw.githubusercontent.com/net-lisias-ksp/LASL-KSP/master/LASL.KSP.version",
+	"DOWNLOAD"	: "https://github.com/net-lisias-ksp/LASL-KSP/releases",
+	"CHANGE_LOG"	: "https://raw.githubusercontent.com/net-lisias-ksp/LASL-KSP/CHANGE_LOG.md",
+	"CHANGE_LOG_URL": "https://raw.githubusercontent.com/net-lisias-ksp/LASL-KSP/CHANGES.md",
 	"VERSION":{
 		"MAJOR":0,
 		"MINOR":0,

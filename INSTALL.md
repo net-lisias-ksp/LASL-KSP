@@ -1,7 +1,6 @@
-# LST-KSP
+# L Aerospace Shared Libraries / KSP Division
 
-**LST KSP** is a bag of tricks and stunts used by Lisias' Add'Ons.
-
+**LASL-KSP** is a bag of tricks and stunts used (or not!) by Lisias' Add'Ons.
 
 ## Installation Instructions
 
@@ -25,7 +24,7 @@ The following file layout must be present after installation:
 			[Plugins]
 				...
 			CHANGE_LOG.md
-			LST-Utils.version
+			LASL.KSP.version
 			LICENSE
 			NOTICE
 			README.md

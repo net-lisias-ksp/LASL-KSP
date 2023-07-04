@@ -12,11 +12,9 @@
     + [Project's README](https://github.com/net-lisias-ksp/LASL-KSP/blob/master/README.md)
     + [Install Instructions](https://github.com/net-lisias-ksp/LASL-KSP/blob/master/INSTALL.md)
     + [Change Log](./CHANGE_LOG.md)
-    + [TODO](./TODO.md) list
 
 
 ## Description
-
 
 **LASL-KSP** is a (crescent) bag of tricks and stunts used (or not!) by Lisias' Add'Ons.
 
@@ -33,7 +31,6 @@ Decoding Morse into human is not implemented yet, but it's on the works.
 Decoding signals into Morse Code is not planned, but it's under consideration.
 
 Based on the specification found [MorseCode.World](https://morsecode.world/international/morse.html).
-
 
 ### `SwitchLights`
 
