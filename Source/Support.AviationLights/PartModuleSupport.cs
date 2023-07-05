@@ -70,20 +70,20 @@ namespace LASL.KSP.Support.SwitchLights.AviationLights
 		{
 			TargetModule tm = (pm as TargetModule);
 			Log.dbg("Part Module {0} is {1}", tm, tm.navLightSwitch);
-			return 0 != tm.navLightSwitch;
+			return tm.IsLightTurnedOn;
 		}
 
 		void ISwitchLights.TurnOn(PartModule pm)
 		{
 			TargetModule tm = (pm as TargetModule);
-			tm.navLightSwitch = tm.toggleModeSelector;
+			tm.SetCurrentModeOn();
 			Log.dbg("Part Module {0} was turned on", tm);
 		}
 
 		void ISwitchLights.TurnOff(PartModule pm)
 		{
 			TargetModule tm = (pm as TargetModule);
-			tm.navLightSwitch = 0;
+			tm.SetLightOff();
 			Log.dbg("Part Module {0} was turned off", tm);
 		}
 	}

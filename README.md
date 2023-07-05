@@ -30,7 +30,7 @@ Decoding Morse into human is not implemented yet, but it's on the works.
 
 Decoding signals into Morse Code is not planned, but it's under consideration.
 
-Based on the specification found [MorseCode.World](https://morsecode.world/international/morse.html).
+Based on the specification found on [MorseCode.World](https://morsecode.world/international/morse.html).
 
 ### `SwitchLights`
 
@@ -41,7 +41,7 @@ Lights are segmented into Beacons, Strobes and Navigation for easy specialised s
 Fully supports:
 
 * Stock
-* [Aviation Lights](https://forum.kerbalspaceprogram.com/index.php?/topic/211781-*/).
+* [Aviation Lights](https://forum.kerbalspaceprogram.com/index.php?/topic/211781-*/) Release 4.2.1.0 or newer.
 * [Kerbal Electric](https://forum.kerbalspaceprogram.com/index.php?/topic/165449-*/)
 * [WildBlue Tools](https://forum.kerbalspaceprogram.com/index.php?/topic/163889-wild-blue-industries-crafts/)
 * And more to come, as they became available and needed.
