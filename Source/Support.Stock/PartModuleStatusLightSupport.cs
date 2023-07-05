@@ -39,7 +39,7 @@ namespace LASL.KSP.Support.SwitchLights.Stock
 		bool ISwitchLights.IsBeaconLight(PartModule pm) => false;
 		bool ISwitchLights.IsNavigationLight(PartModule pm) => false;
 		bool ISwitchLights.IsStrobeLight(PartModule pm) => false;
-		bool ISwitchLights.IsUtilityLight(PartModule pm) => true;
+		bool ISwitchLights.IsUtilityLight(PartModule pm) => false;
 
 		bool ISwitchLights.IsOn(PartModule pm)
 		{
