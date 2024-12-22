@@ -40,7 +40,7 @@ namespace LASL.KSP.Support.SwitchLights.Stock
 		bool ISwitchLights.IsActive(PartModule pm)
 		{
 			TargetModule tm = (pm as TargetModule);
-			return (Regex.IsMatch(tm.actionGUIName, "light", RegexOptions.IgnoreCase) || Regex.IsMatch(tm.startEventGUIName, "light", RegexOptions.IgnoreCase));
+			return this.thisIsLight(tm);
 		}
 
 		bool ISwitchLights.IsSlowLight(PartModule pm, float thresholdInSecs)
@@ -52,18 +52,19 @@ namespace LASL.KSP.Support.SwitchLights.Stock
 		bool ISwitchLights.IsBeaconLight(PartModule pm) => false;
 		bool ISwitchLights.IsNavigationLight(PartModule pm) => false;
 		bool ISwitchLights.IsStrobeLight(PartModule pm) => false;
-		bool ISwitchLights.IsUtilityLight(PartModule pm) => true;
+		bool ISwitchLights.IsUtilityLight(PartModule pm) => this.thisIsLight(pm as TargetModule);
 
 		bool ISwitchLights.IsOn(PartModule pm)
 		{
 			TargetModule tm = (pm as TargetModule);
 			Log.dbg("Part Module {0} is {1}", tm, tm.animSwitch);
-			return !tm.animSwitch;
+			return this.thisIsLight(pm as TargetModule) && !tm.animSwitch;
 		}
 
 		void ISwitchLights.TurnOn(PartModule pm)
 		{
 			TargetModule tm = (pm as TargetModule);
+			if (!this.thisIsLight(pm as TargetModule)) return;
 			if (!(this as ISwitchLights).IsOn(pm))
 				tm.Toggle();
 			Log.dbg("Part Module {0} was turned on", tm);
@@ -72,9 +73,17 @@ namespace LASL.KSP.Support.SwitchLights.Stock
 		void ISwitchLights.TurnOff(PartModule pm)
 		{
 			TargetModule tm = (pm as TargetModule);
+			if (!this.thisIsLight(pm as TargetModule)) return;
 			if ((this as ISwitchLights).IsOn(pm))
 				tm.Toggle();
 			Log.dbg("Part Module {0} was turned off", tm);
+		}
+
+		private bool thisIsLight(TargetModule tm)
+		{
+			//FIXME: Get rid of the Regex. This is a waste of CPU.
+			//FIXME: Using the GUIName is dumb, it only works for English! I need a better way to identify these actions and events!
+			return (Regex.IsMatch(tm.actionGUIName, "light", RegexOptions.IgnoreCase) || Regex.IsMatch(tm.startEventGUIName, "light", RegexOptions.IgnoreCase));
 		}
 	}
 }
