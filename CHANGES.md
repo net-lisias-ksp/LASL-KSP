@@ -1,5 +1,7 @@
 # L Aerospace Shared Libraries / KSP Division :: Changes
 
+* 2024-1222: 0.0.1.2 (LisiasT) for KSP >= 1.2
+	+ Being slightly less obtuse and realising that not every `ModuleAnimateGeneric` is a Light... 🤦
 * 2023-0705: 0.0.1.1 (LisiasT) for KSP >= 1.2
 	+ A series of unfortunate mishaps fixed.
 		- Can't imagine how in hell I let all this crap pass trough…
